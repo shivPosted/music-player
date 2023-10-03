@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spotify-playlist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <div class="main-nav container">
+          <ul>
+            <li class="home flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="home-icon icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                />
+              </svg>
+              Home
+            </li>
+            <li class="search flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="search-icon icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+
+              Search
+            </li>
+          </ul>
+        </div>
+        <div class="playlist-nav container">
+          <h2 class="playlist-in-nav flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="library-icon icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
+              />
+            </svg>
+            Your Playlists
+          </h2>
+          <ul>
+            <li><img src="" alt="Playlist0-image" />Playlist1</li>
+            <li><img src="" alt="Playlist1-image" />Playlist2</li>
+            <li><img src="" alt="Playlist2-image" />Playlist3</li>
+            <li><img src="" alt="Playlist3-image" />Playlist4</li>
+            <li><img src="" alt="Playlist4-image" />Playlist5</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="display-container container">
+        <h1>Playlists</h1>
+        <div class="display-container-playlists">
+          <div class="playlist-0">
+            <img src="" alt="Playlist0-image" />Playlist1
+          </div>
+          <div class="playlist-1">
+            <img src="" alt="Playlist0-image" />Playlist2
+          </div>
+          <div class="playlist-2">
+            <img src="" alt="Playlist0-image" />Playlist3
+          </div>
+          <div class="playlist-3">
+            <img src="" alt="Playlist0-image" />Playlist4
+          </div>
+          <div class="playlist-4">
+            <img src="" alt="Playlist0-image" />Playlist5
+          </div>
+          <div class="playlist-5">
+            <img src="" alt="Playlist0-image" />Playlist6
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="playbar flex">
+      <div class="current-song-info">
+        <img src="" class="currentSongImg" alt="currentSongImage" />
+        <h3 class="current-song-name" style="color: #fff">CurrentSong</h3>
+      </div>
+      <div class="main-player">
+        <div class="player">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="previous-icon icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="play-icon icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="pause-icon icon hidden"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 5.25v13.5m-7.5-13.5v13.5"
+            />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="next-icon icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </div>
+        <input type="range" min="0" max="100" value="20" class="progress-bar" />
+      </div>
+    </div>
+  </body>
+</html>
