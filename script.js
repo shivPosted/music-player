@@ -5,5 +5,6 @@ const playlistContainer = document.querySelector(
 
 playlistContainer.addEventListener("click", function (e) {
   if (!e.target.closest(".playlist-card")) return;
-  console.log("clicked");
+  console.log(e.target);
+  const playlistName = e.target.dataset.playlistName;
 });
