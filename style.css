@@ -135,10 +135,10 @@ h1 {
   flex-wrap: wrap;
   max-width: 90%;
   margin: 9.6rem auto;
-  /* gap: 4rem; */
+  gap: 4rem;
   row-gap: 2.4rem;
   overflow-y: auto;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 
 .playlist-card {
@@ -202,7 +202,8 @@ ul {
 
 .hidden {
   opacity: 0;
-  z-index: -5;
+  z-index: -5000;
+  transition: all 0.3s ease-in;
 }
 
 .display-none {
