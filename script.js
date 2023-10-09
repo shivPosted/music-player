@@ -14,3 +14,7 @@ playlistContainer.addEventListener("click", function (e) {
   }, 500);
   containerPlaylistSong.classList.remove("hidden");
 });
+
+const num = [1, 2, 3, 4, 5, 6, 7];
+const num2 = num.map((curr) => curr ** curr);
+console.log(num2);
