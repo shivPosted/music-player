@@ -17,4 +17,5 @@ playlistContainer.addEventListener("click", function (e) {
 
 const num = [1, 2, 3, 4, 5, 6, 7];
 const num2 = num.map((curr) => curr ** curr);
-console.log(num2);
+const num3 = num2.filter((curr) => curr % 2 === 0);
+console.log(num2, num3);
