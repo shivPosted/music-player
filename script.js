@@ -18,4 +18,6 @@ playlistContainer.addEventListener("click", function (e) {
 const num = [1, 2, 3, 4, 5, 6, 7];
 const num2 = num.map((curr) => curr ** curr);
 const num3 = num2.filter((curr) => curr % 2 === 0);
+const num4 = num3.reduce((accum, curr) => accum + curr);
 console.log(num2, num3);
+console.log(num4);
