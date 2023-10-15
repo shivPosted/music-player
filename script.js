@@ -21,3 +21,7 @@ const num3 = num2.filter((curr) => curr % 7 === 0);
 const num4 = num3.reduce((accum, curr) => accum + curr);
 console.log(num2, num3);
 console.log(num4);
+
+const string = "my name is shiv";
+const result = string.split(" ").join("*");
+console.log(result);
