@@ -23,5 +23,5 @@ console.log(num2, num3);
 console.log(num4);
 
 const string = "my name is shiv";
-const result023 = string.split(" ").join("/*/*/*/");
+const result023 = string.split(" ").join("/*/*/*/*/*/");
 console.log(result023);
