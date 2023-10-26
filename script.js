@@ -23,5 +23,5 @@ console.log(num2, num3);
 console.log(num4);
 
 const string = "my name is shiv";
-const result025 = string.split(" ").join("(<o_o>)");
+const result025 = string.split(" ").join("(<_>)");
 console.log(result025);
